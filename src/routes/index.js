@@ -2,5 +2,9 @@ export const ROUTES = {
   HOME: "/",
   ABOUT: "/about",
   BLOG: "/blog",
-  FAQ: "/faq"
+  FAQ: "/faq",
+  SINGLE_BOOK: {
+    STATIC: "/book/:bookId",
+    DYNAMIC: bookId => `/book/${bookId}`
+  }
 };

@@ -18,5 +18,8 @@ export const router = createBrowserRouter([
   }, {
     path: `${ROUTES.FAQ}`,
     element: <Faq/>
+  }, {
+    path: `${ROUTES.SINGLE_BOOK.STATIC}`,
+    element: <div>Dynamic rounting working.</div>
   }
 ]);
