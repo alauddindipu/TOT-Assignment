@@ -4,6 +4,7 @@ import About from "../pages/About";
 import {ROUTES} from "../routes";
 import Blog from "../pages/Blog";
 import Faq from "../pages/Faq";
+import BookDetails from "../pages/BookDetails";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,6 @@ export const router = createBrowserRouter([
     element: <Faq/>
   }, {
     path: `${ROUTES.SINGLE_BOOK.STATIC}`,
-    element: <div>Dynamic rounting working.</div>
+    element: <BookDetails/>
   }
 ]);
