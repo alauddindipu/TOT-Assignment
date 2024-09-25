@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./../components/shared/Navbar";
+import Footer from "./../components/shared/Footer";
 
 export default function Faq() {
   return (<div>
     <Navbar/>
-    <div className="container mx-auto">
+    <div className="container mx-auto p-10">
       <p className="font-bold text-3xl p-4 flex justify-center">FAQ</p>
       <p className="p-2 font-semibold">
         1# What is React.js and Explain the concept of "components" in React.
@@ -37,5 +38,6 @@ export default function Faq() {
         Ans: In React, "state" refers to a mutable data structure that a component can manage and update internally, affecting its behavior and rendering. Unlike props, which are passed from parent to child and are immutable, state is local to the component and can change over time, often in response to user interactions.
       </p>
     </div>
+    <Footer/>
   </div>);
 }

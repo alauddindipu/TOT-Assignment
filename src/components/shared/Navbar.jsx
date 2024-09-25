@@ -3,12 +3,12 @@ import {Link} from "react-router-dom";
 import {ROUTES} from "./../../routes/index.js";
 
 function Navbar() {
-  return (<section className="bg-gray-200 p-4">
+  return (<section className="bg-gray-200 p-1 lg:p-4 sticky top-0 z-50">
     <div className="container mx-auto ">
       <header className="flex items-center flex-col lg:flex-row lg:justify-between">
-        <div>
+        <div className="size-12 lg:size-28">
           <Link to={ROUTES.HOME}>
-            <img src="src/components/images/book-logo.png" alt="logo" className="h-20 w-40 cursor-pointer"/>
+            <img src="src/components/images/book-logo.jpg" alt="logo" className="cursor-pointer"/>
           </Link>
         </div>
         <div className="items-center space-x-4">
@@ -27,11 +27,11 @@ function Navbar() {
         </div>
 
         <div className="space-x-6">
-          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-3">
+          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded  p-1 lg:p-2">
             {" "}
             Buy Book
           </button>
-          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-3">
+          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-1 lg:p-2">
             {" "}
             Sign In
           </button>

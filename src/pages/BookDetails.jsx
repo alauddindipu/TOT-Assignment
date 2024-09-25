@@ -11,10 +11,18 @@ export default function BookDetails() {
   return (<div>
     <Navbar/>
     <section className="p-5 bg-gray shadow flex flex-col lg:justify-between lg:flex-row container mx-auto">
-      <div className="h-48 w-96">
-        <img src={bookWithIds.map(a => a.image)} alt="image"/>
+      <div className="h-47 w-96">
+        <p>
+          <img src={bookWithIds.map(a => a.image)} alt="image"/>
+        </p>
+        <br/>
+        <p>
+          <button type="button" className="bg-orange-400 p-2 text-white rounded overflow-hidden	">
+            Wish to Read
+          </button>{" "}
+        </p>
       </div>
-      <div className="py-10 px-5 lg:py-0">
+      <div className="px-5 py-18 lg:py-0">
         <p>{bookWithIds.map(a => a.bookName)}</p>
         <p>{bookWithIds.map(a => a.author)}</p>
         <p>{bookWithIds.map(a => a.category)}</p>
