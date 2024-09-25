@@ -9,7 +9,7 @@ function Navbar() {
         <div className="">
           <Link to={ROUTES.HOME}>
             {/* <img src="src/components/images/book-logo.jpg" alt="logo" className="cursor-pointer"/> */}
-            <p className="items-center font-extrabold">BooksLover</p>
+            <p className="items-center font-extrabold text-4xl">BooksLover</p>
           </Link>
         </div>
         <div className="items-center space-x-4">

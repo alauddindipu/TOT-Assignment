@@ -10,7 +10,7 @@ export default function BookDetails() {
 
   return (<div>
     <Navbar/>
-    <section className="p-5 bg-gray shadow flex flex-col lg:justify-between lg:flex-row container mx-auto">
+    <section className="p-5 bg-gray shadow flex flex-col lg:justify-evenly lg:flex-row container mx-auto">
       <div className="h-47 w-96">
         <p>
           <img src={bookWithIds.map(a => a.image)} alt="image"/>
