@@ -5,6 +5,7 @@ import {ROUTES} from "../routes";
 import Blog from "../pages/Blog";
 import Faq from "../pages/Faq";
 import BookDetails from "../pages/BookDetails";
+import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -22,5 +23,8 @@ export const router = createBrowserRouter([
   }, {
     path: `${ROUTES.SINGLE_BOOK.STATIC}`,
     element: <BookDetails/>
+  }, {
+    path: `*`,
+    element: <NotFound/>
   }
 ]);

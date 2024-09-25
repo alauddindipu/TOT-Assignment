@@ -27,11 +27,11 @@ function Navbar() {
         </div>
 
         <div className="space-x-6">
-          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-4">
+          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-3">
             {" "}
             Buy Book
           </button>
-          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-4">
+          <button type="button" className="bg-orange-300 hover:bg-orange-600 rounded p-3">
             {" "}
             Sign In
           </button>

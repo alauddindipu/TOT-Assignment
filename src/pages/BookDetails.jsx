@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import Bookjson from "/public/book.json";
+import Bookjson from "/src/book.json";
 import Navbar from "./../components/shared/Navbar";
 
 export default function BookDetails() {
