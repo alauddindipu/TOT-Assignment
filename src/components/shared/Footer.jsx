@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function footer() {
-  return (<div className="continer mx-auto p-5 bg-orange-200">
+  return (<div className="continer mx-auto p-5 bg-gray-200">
     <footer className="footer bg-neutral text-neutral-content items-center p-4 flex justify-around">
       <div>
         {" "}

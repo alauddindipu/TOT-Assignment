@@ -26,7 +26,7 @@ export default function ProductsPage() {
                 <p>{book.author}</p>
                 <p>{book.category}</p>
                 <p>{book.rating}</p>
-                <button type="button" className="bg-orange-400 p-3 text-white rounded">
+                <button type="button" className="bg-orange-400 p-2 text-white rounded">
                   Book Details
                 </button>
               </div>
